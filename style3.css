@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
+}
+
+.header-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: rgb(186, 163, 127);
+    padding: 1% 2%; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.header-container h1 {
+    margin: 0; 
+    padding: 1rem 0; 
+    color: #333; 
+}
+
+.links-container {
+    display: flex; 
+    gap: 1rem; 
+}
+
+.links-container a {
+    color: #15181a; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.links-container a:hover {
+    text-decoration: underline; 
+}
+
+figure img {
+    border-radius: 50%; 
+    border: 5px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+figure {
+    margin-left: 5rem;
+}
+
+figure img:hover {
+    width: 350px;
+    height: 350px;
+}
+
+.tops-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tops-container h4:not(:last-child) {
+    margin-right: 5rem; 
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+ol {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ranking {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tops-container,
+.ranking {
+    background-color: rgb(255, 246, 235);
+}
+
+li {
+    background-color: rgb(186, 163, 127);
+    border-radius: 10%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer {
+    background-color: rgb(186, 163, 127);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3%;
+}
+
+footer img {
+    height: 50px; 
+    width: auto; 
+    max-width: 100px; 
+    border-radius: 5px; 
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
+button {
+    height: 50px;
+    width: auto;
+    background-color: antiquewhite;
+    margin-left: 70%;
+}
+
+.Contact {
+    text-decoration: none;
+    color: #15181a;
+    font-weight: bold;
+}
+
+li {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
